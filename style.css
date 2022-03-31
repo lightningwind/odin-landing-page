@@ -124,7 +124,7 @@ button.hero-btn {
     max-width: 150px;
 }
 
-/*** TODO: SECTION THREE ***/
+/*** SECTION THREE ***/
 
 .section-3 {
     background-color: #E5E7EB;
@@ -141,7 +141,7 @@ button.hero-btn {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .quote-customer {
@@ -153,4 +153,41 @@ button.hero-btn {
     justify-content: flex-end;
 }
 
-/*** TODO: SECTION FOUR ***/
+/*** SECTION FOUR ***/
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container {
+    height: 100px;
+    flex: 1;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 8px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 50px;
+}
+
+.call-to-action-btn {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 5px 25px;
+    font-size: 16px;
+}
+
+.call-to-action-main-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call-to-action-secondary-text {
+    color: #E5E7EB;
+}
