@@ -15,12 +15,15 @@ body {
     background-color: #1F2937;
 }
 
+/* Header */
+
 .header {
     display: flex;
     justify-content: space-between;
+    margin: 10px 150px;
 }
 
-.header-links {
+ul.header-links {
     /* Reset browser default styles */
     margin: 0;
     padding: 0;
@@ -29,7 +32,7 @@ body {
     gap: 16px;
 }
 
-.header-links a {
+ul.header-links a {
     /* Remove underline */
     text-decoration: none;
 }
@@ -39,15 +42,52 @@ body {
     color: #F9FAF8;
 }
 
-ul.header-links a, .hero-secondary-text {
+ul.header-links a, p.hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.hero-main-text {
+/* Hero */
+
+h1.hero-main-text {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 100px 150px;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.hero-content {
+    align-self: center;
+}
+
+button.hero-btn {
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.hero-img {
+    width: 600px;
+    height: 250px;
+    background-color: gray;
+    color: #F9FAF8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*** TODO: SECTION TWO ***/
