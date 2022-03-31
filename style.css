@@ -57,8 +57,7 @@ h1.hero-main-text {
 
 .hero {
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
     margin: 100px 150px;
 }
 
@@ -77,6 +76,8 @@ button.hero-btn {
     color: white;
     border: none;
     margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .hero-img {
@@ -114,7 +115,7 @@ button.hero-btn {
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 80px;
     margin-bottom: 150px;
     margin-left: 100px;
     margin-right: 100px;
@@ -134,7 +135,7 @@ button.hero-btn {
 }
 
 .quote-container {
-    margin: 100px 150px;
+    margin: 100px 333px;
 }
 
 .quote-text {
@@ -170,7 +171,7 @@ button.hero-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 50px;
+    margin: 100px 150px;
 }
 
 .call-to-action-btn {
@@ -180,6 +181,7 @@ button.hero-btn {
     color: #F9FAF8;
     padding: 5px 25px;
     font-size: 16px;
+    font-weight: 700;
 }
 
 .call-to-action-main-text {
@@ -203,4 +205,5 @@ button.hero-btn {
 .footer-text {
     color: #E5E7EB;
     margin: 25px 0px;
+    font-size: 18px;
 }
