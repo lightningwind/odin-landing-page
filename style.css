@@ -19,7 +19,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 10px 150px;
 }
@@ -57,7 +57,7 @@ h1.hero-main-text {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 100px 150px;
 }
 
@@ -87,6 +87,7 @@ button.hero-btn {
 
 .hero-img {
     height: 450px;
+    margin-left: 25px;
 }
 
 /*** SECTION TWO ***/
@@ -144,6 +145,7 @@ button.hero-btn {
 
 .quote-container {
     margin: 100px 150px;
+    max-width: 1000px;
 }
 
 .quote-text {
@@ -153,10 +155,10 @@ button.hero-btn {
     font-weight: 300;
 }
 
-.quote-customer {
+.quote-author {
     color: #1F2937;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 25px;
     /* Right align text */
     display: flex;
     justify-content: flex-end;
@@ -172,7 +174,7 @@ button.hero-btn {
 
 .call-to-action-container {
     height: 100px;
-    flex: 1;
+    width: 1000px;
     background-color: #3882F6;
     border-radius: 5px;
     padding: 8px 100px;
@@ -190,6 +192,7 @@ button.hero-btn {
     padding: 5px 25px;
     font-size: 16px;
     font-weight: 700;
+    width: 150px;
 }
 
 .call-to-action-btn a {
@@ -218,4 +221,5 @@ button.hero-btn {
     color: #E5E7EB;
     margin: 25px 0px;
     font-size: 18px;
+    max-width: 500px;
 }
