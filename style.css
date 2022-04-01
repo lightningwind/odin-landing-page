@@ -20,6 +20,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 10px 150px;
 }
 
@@ -32,14 +33,13 @@ ul.header-links {
     gap: 16px;
 }
 
-ul.header-links a {
+a {
     /* Remove underline */
     text-decoration: none;
 }
 
 .header-logo-text {
-    font-size: 24px;
-    color: #F9FAF8;
+    height: 70px;
 }
 
 ul.header-links a, p.hero-secondary-text {
@@ -67,11 +67,12 @@ h1, p {
 
 .hero-content {
     align-self: center;
+    width: 700px;
 }
 
 button.hero-btn {
     background-color: #3882F6;
-    padding: 8px 16px;
+    padding: 8px 32px;
     border-radius: 8px;
     color: white;
     border: none;
@@ -80,15 +81,12 @@ button.hero-btn {
     font-weight: 700;
 }
 
-.hero-img {
-    width: 600px;
-    height: 250px;
-    background-color: gray;
+.hero-btn a {
     color: #F9FAF8;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.hero-img {
+    height: 450px;
 }
 
 /*** SECTION TWO ***/
@@ -102,7 +100,7 @@ button.hero-btn {
     height: 150px;
     border: 3px solid #3882F6;
     border-radius: 10px;
-    margin-bottom: 8px;
+    padding: 16px 16px;
 }
 
 .info-title {
@@ -122,7 +120,16 @@ button.hero-btn {
 }
 
 .info-item {
-    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-heading {
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 /*** SECTION THREE ***/
@@ -135,7 +142,7 @@ button.hero-btn {
 }
 
 .quote-container {
-    margin: 100px 333px;
+    margin: 100px 150px;
 }
 
 .quote-text {
@@ -182,6 +189,10 @@ button.hero-btn {
     padding: 5px 25px;
     font-size: 16px;
     font-weight: 700;
+}
+
+.call-to-action-btn a {
+    color: #F9FAF8;
 }
 
 .call-to-action-main-text {
